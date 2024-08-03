@@ -1,0 +1,32 @@
+.round{
+    display: flex;
+    justify-content: center;
+    margin:100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: red;
+    align-items: center;
+}
+img{
+   max-width: 70%;
+   max-height: 60%;
+   object-fit: contain;
+   border: 1px solid red;
+   border-radius: 50%;
+}
+.centered-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 900;
+    color: #fdf504;
+    /* filter: brightness(100000%); */
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
